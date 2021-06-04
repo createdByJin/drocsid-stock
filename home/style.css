@@ -1,0 +1,162 @@
+/* variaveis css */
+:root {
+    /* colors */
+    --color-home: #F6F6F6;
+    --color-sidebar: #000000;
+    --color-white: #FFFFFF;
+    --color-sidebar-selected: #B1BF21;
+    --color-error: #f44336;
+}
+
+.bg-body-color {
+    background-color: var(--color-home);
+}
+
+.sidebar-nav {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--color-sidebar);
+    z-index: 1;
+    overflow: hidden; /* Disable horizontal scroll */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.drocsid-logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 55px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    background-image: url("assets/DrocSid_Logotipo.png");
+    background-repeat: no-repeat;
+}
+
+.sidebar-nav a {
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 45px;
+    text-decoration: none;
+    font-family: 'Roboto', Monteserrat, sans-serif;
+    font-size: 16px;
+    color: var(--color-white);
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+    line-height: 44px;
+}
+
+.sidebar-nav a:hover {
+    cursor: pointer;
+    color:var(--color-sidebar-selected);
+    background-color: #252525;
+}
+
+.sidebar-nav a span {
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.item-selected {
+    color: var(--color-sidebar-selected);
+}
+
+.sidebar-nav .logout {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 100px;
+}
+
+.close-modal-btn {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    width: 40px;    
+}
+
+.close-modal-btn:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-home);
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    font-family: 'Roboto', Monteserrat, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 42%;
+}
+
+.modal-content h1 {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logout-options {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+#logout-cancel, #logout-confirm {
+    float: left;
+    width: 50%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#logout-cancel {
+    background-color: #A9A9A9  ;
+    color: var(--color-sidebar)
+}
+
+#logout-confirm {
+    background-color: var(--color-error);
+    color: var(--color-white);
+}
+
+#logout-cancel:hover, #logout-confirm:hover {
+    opacity: 1;
+}
