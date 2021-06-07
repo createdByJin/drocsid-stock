@@ -3,13 +3,17 @@ Este é um projeto de conclusão do curso de desenvolvimento de sistemas.
 Seu desenvolvimento está em andamento e as funcionalidades serão implementadas conforme o avanço do curso.
 Nossa equipe é composta por 5 integrantes e utilizaremos nosso conhecimento no desenvolvimento deste projeto.
 
+Estamos utilizando Figma
+
+https://www.figma.com/
+
+É um editor gráfico e prototipagem de projetos de design.
 
 Algumas imagens das telas que foram feitas até o momento.
 
-![home-drocsid](https://user-images.githubusercontent.com/52226835/120759128-10032e00-c4e9-11eb-926c-66b730236cc9.PNG)
+![home-drocsid](https://user-images.githubusercontent.com/52226835/120988013-8ce61000-c754-11eb-8370-69eca6198d07.PNG)
 
-
-![logout-drocsid](https://user-images.githubusercontent.com/52226835/120759253-3a54eb80-c4e9-11eb-92f0-c0d7a0d7fea8.PNG)
+![logout-drocsid](https://user-images.githubusercontent.com/52226835/120988038-91122d80-c754-11eb-87a7-bf4978a279a8.PNG)
 
 Página de Cadastro
 
