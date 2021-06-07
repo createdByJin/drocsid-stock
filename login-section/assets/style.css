@@ -1,0 +1,14 @@
+/* css variables */
+:root {
+    /* colors */
+    --color-home: #E9F7EF;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-error: #f44336;
+    --color-input-border: #D0D3D4;
+    --color-input-border-focus: #A9CCE3;
+}
+
+.bg-body-color {
+    background-color: var(--color-home);
+}

@@ -1,8 +1,8 @@
-/* variaveis css */
+/* css variables */
 :root {
     /* colors */
     --color-home: #F6F6F6;
-    --color-sidebar: #000000;
+    --color-black: #000000;
     --color-white: #FFFFFF;
     --color-sidebar-selected: #B1BF21;
     --color-error: #f44336;
@@ -18,7 +18,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: var(--color-sidebar);
+    background-color: var(--color-black);
     z-index: 1;
     overflow: hidden; /* Disable horizontal scroll */
     display: flex;
@@ -33,8 +33,9 @@
     margin-right: 35px;
     margin-bottom: 35px;
     margin-left: 35px;
-    background-image: url("assets/DrocSid_Logotipo.png");
+    background-image: url("images/DrocSid_Logotipo.png");
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 .sidebar-nav a {
@@ -43,7 +44,7 @@
     padding-bottom: 6px;
     padding-left: 45px;
     text-decoration: none;
-    font-family: 'Roboto', Monteserrat, sans-serif;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 16px;
     color: var(--color-white);
     display: inline-flex;
@@ -149,12 +150,14 @@
 
 #logout-cancel {
     background-color: #A9A9A9  ;
-    color: var(--color-sidebar)
+    color: var(--color-black);
+    border-radius: 5px 0 0 5px;
 }
 
 #logout-confirm {
     background-color: var(--color-error);
     color: var(--color-white);
+    border-radius: 0 5px 5px 0;
 }
 
 #logout-cancel:hover, #logout-confirm:hover {
